@@ -6,6 +6,7 @@ import InformationSection from "./components/InformationSection";
 import ServicesSection from "./components/ServicesSection";
 import ProjectsSection from "./components/ProjectsSection";
 import CompanySection from "./components/CompanySection";
+import FooterSection from "./components/FooterSection";
 function App() {
   return (
     <>
@@ -18,15 +19,14 @@ function App() {
 
         <Navbar />
         <SliderSection />
-        <AboutSection/>
-        <InformationSection/>
-      
+        <AboutSection />
+        <InformationSection />
 
-       <CompanySection/>
+        <CompanySection />
 
-       <ServicesSection />
-       <ProjectsSection />
-       
+        <ServicesSection />
+        <ProjectsSection />
+
         <div className="contact section-padding" id="section_5">
           <div className="container">
             <div className="row">
@@ -294,30 +294,7 @@ function App() {
         </div>
       </div>
 
-      <footer className="site-footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 col-12">
-              <div className="copyright-text-wrap">
-                <p className="mb-0">
-                  <span className="copyright-text">
-                    Copyright © 2036 <a href="#">First Portfolio</a> Company.
-                    All rights reserved.
-                  </span>
-                  Design:
-                  <a
-                    rel="sponsored"
-                    href="https://templatemo.com"
-                    target="_blank"
-                  >
-                    TemplateMo
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <FooterSection />
     </>
   );
 }
