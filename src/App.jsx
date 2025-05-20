@@ -8,6 +8,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import CompanySection from "./components/CompanySection";
 import FooterSection from "./components/FooterSection";
 import ContactSection from "./components/ContactSection";
+
 function App() {
   return (
     <>
