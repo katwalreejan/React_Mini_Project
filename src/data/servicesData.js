@@ -1,4 +1,3 @@
-// src/data/servicesData.ts
 export const services = [
   {
     title: "Websites",
